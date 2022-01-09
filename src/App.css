@@ -1,38 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    background-color: #ffec3f;
+    color: black;
+    border-color: #000;
+}
+
+td, th {
+    border: 1px solid #ffec3f;
+    padding: 2px 4px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*.title>th>div>span{*/
+/*    font-size: 18px;*/
+/*    margin-right: 5px;*/
+/*}*/
+
+/*.title>th>div{*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*}*/
+
 .App {
-  text-align: center;
+    background-color: black;
+    min-height: 100vh;
+    width: 200vw;
+    color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-button {
+    margin-top: 10px;
+    padding: 5px 5px;
+    margin-right: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+tbody > tr:hover {
+    background-color: rgba(255, 255, 255, .5);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App-navigation{
+    margin-top: 10px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-navigation>*{
+    cursor: pointer;
 }

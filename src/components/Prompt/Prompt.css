@@ -1,0 +1,27 @@
+.Prompt{
+    margin: auto;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.7);
+}
+
+.Prompt-body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+}
+
+.Prompt-body>button, .Prompt-body>input{
+    padding: 5px 5px;
+}
+
+.Prompt-body>*:not(:last-child){
+    margin-bottom: 10px;
+}
